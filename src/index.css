@@ -129,3 +129,15 @@ h1{
   border: 2px solid #fff; /* White border for contrast */
 }
 
+@media screen and (max-width:746px) {
+  .todo-inner{
+    width: 85vw;
+    height: 60vh;
+  }
+}
+@media screen and (min-width:600px) and (max-width:900px) {
+  .todo-inner{
+    width: 65vw;
+    height: 60vh;
+  }
+}
